@@ -1,50 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\",
+  "WorkspaceRootPath": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\,smt 4\\stima\\tubes3_click\\src\\winformsapp1\\winformsapp1\\winformsapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\winformsapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\,smt 4\\stima\\tubes3_click\\src\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\,smt 4\\stima\\tubes3_click\\src\\winformsapp1\\winformsapp1\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\,smt 4\\stima\\tubes3_click\\src\\winformsapp1\\winformsapp1\\databaseoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\databaseoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\,smt 4\\stima\\tubes3_click\\src\\winformsapp1\\winformsapp1\\algoritma_bm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\algoritma_bm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\,smt 4\\stima\\tubes3_click\\src\\winformsapp1\\winformsapp1\\algorithm_regex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\programming\\kuliah\\strategi_algoritma\\tubes3\\tubes3_click\\src\\winformsapp1\\winformsapp1\\algorithm_regex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\algorithm_regex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\,smt 4\\stima\\tubes3_click\\src\\winformsapp1\\winformsapp1\\algorithm_lcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\programming\\kuliah\\strategi_algoritma\\tubes3\\tubes3_click\\src\\winformsapp1\\winformsapp1\\algorithm_lcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\algorithm_lcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\,smt 4\\stima\\tubes3_click\\src\\winformsapp1\\winformsapp1\\algorithm_kmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\programming\\kuliah\\strategi_algoritma\\tubes3\\tubes3_click\\src\\winformsapp1\\winformsapp1\\algoritma_bm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\algoritma_bm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\programming\\kuliah\\strategi_algoritma\\tubes3\\tubes3_click\\src\\winformsapp1\\winformsapp1\\algorithm_kmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\algorithm_kmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\,smt 4\\stima\\tubes3_click\\src\\winformsapp1\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\,smt 4\\stima\\tubes3_click\\src\\winformsapp1\\winformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|d:\\programming\\kuliah\\strategi_algoritma\\tubes3\\tubes3_click\\src\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E64F20B-80E4-4CDC-90E4-B9F17E2FE3CD}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,140 +30,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
+              "ToolTip": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAowOcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:33:00.052Z",
+              "WhenOpened": "2024-06-08T23:57:06.971Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WinFormsApp1",
-              "DocumentMoniker": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
-              "RelativeDocumentMoniker": "WinFormsApp1\\WinFormsApp1.csproj",
-              "ToolTip": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
-              "RelativeToolTip": "WinFormsApp1\\WinFormsApp1.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-09T06:30:12.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Algorithm_Regex.cs",
-              "DocumentMoniker": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algorithm_Regex.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Algorithm_Regex.cs",
-              "ToolTip": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algorithm_Regex.cs",
-              "RelativeToolTip": "WinFormsApp1\\Algorithm_Regex.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA9wB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:48:29.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Algorithm_LCS.cs",
-              "DocumentMoniker": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algorithm_LCS.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Algorithm_LCS.cs",
-              "ToolTip": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algorithm_LCS.cs",
-              "RelativeToolTip": "WinFormsApp1\\Algorithm_LCS.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:48:26.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Algoritma_BM.cs",
-              "DocumentMoniker": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algoritma_BM.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Algoritma_BM.cs",
-              "ToolTip": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algoritma_BM.cs",
-              "RelativeToolTip": "WinFormsApp1\\Algoritma_BM.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAuwAEAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:48:32.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DatabaseOperations.cs",
-              "DocumentMoniker": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\DatabaseOperations.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\DatabaseOperations.cs",
-              "ToolTip": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\DatabaseOperations.cs",
-              "RelativeToolTip": "WinFormsApp1\\DatabaseOperations.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAQwCwAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:24:54.113Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
+              "Title": "Algorithm_LCS.cs",
+              "DocumentMoniker": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algorithm_LCS.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Algorithm_LCS.cs",
+              "ToolTip": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algorithm_LCS.cs",
+              "RelativeToolTip": "WinFormsApp1\\Algorithm_LCS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T12:51:04.143Z"
+              "WhenOpened": "2024-06-09T06:49:08.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Algorithm_Regex.cs",
+              "DocumentMoniker": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algorithm_Regex.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Algorithm_Regex.cs",
+              "ToolTip": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algorithm_Regex.cs",
+              "RelativeToolTip": "WinFormsApp1\\Algorithm_Regex.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T06:49:07.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ImageConverter.cs",
-              "DocumentMoniker": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\ImageConverter.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\ImageConverter.cs",
-              "ToolTip": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\ImageConverter.cs",
-              "RelativeToolTip": "WinFormsApp1\\ImageConverter.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAnwIcAAABAAAAA",
+              "Title": "Algoritma_BM.cs",
+              "DocumentMoniker": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algoritma_BM.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Algoritma_BM.cs",
+              "ToolTip": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algoritma_BM.cs",
+              "RelativeToolTip": "WinFormsApp1\\Algoritma_BM.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwA8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:27:55.629Z"
+              "WhenOpened": "2024-06-09T06:49:05.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Algorithm_KMP.cs",
-              "DocumentMoniker": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algorithm_KMP.cs",
+              "DocumentMoniker": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algorithm_KMP.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Algorithm_KMP.cs",
-              "ToolTip": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algorithm_KMP.cs",
+              "ToolTip": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Algorithm_KMP.cs",
               "RelativeToolTip": "WinFormsApp1\\Algorithm_KMP.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwAIAAAASAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:43:16.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
-              "ToolTip": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Program.cs",
-              "RelativeToolTip": "WinFormsApp1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:29:38.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.Designer.cs",
-              "ToolTip": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\Form1.Designer.cs",
-              "RelativeToolTip": "WinFormsApp1\\Form1.Designer.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAApwFAAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:08:44.302Z"
+              "WhenOpened": "2024-06-09T06:49:04.181Z",
+              "EditorCaption": ""
             }
           ]
         }

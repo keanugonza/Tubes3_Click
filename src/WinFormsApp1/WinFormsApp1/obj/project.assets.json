@@ -1786,19 +1786,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Keanu\\.nuget\\packages\\": {}
+    "C:\\Users\\HP OMEN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
-      "packagesPath": "C:\\Users\\Keanu\\.nuget\\packages\\",
-      "outputPath": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "projectPath": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "packagesPath": "C:\\Users\\HP OMEN\\.nuget\\packages\\",
+      "outputPath": "D:\\Programming\\Kuliah\\Strategi_Algoritma\\Tubes3\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Keanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP OMEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1853,7 +1853,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

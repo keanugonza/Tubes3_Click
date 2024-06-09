@@ -21,7 +21,7 @@ namespace WinFormsApp1
         string input;
         private bool isToggledOn = false;
         private Bitmap imageUser;
-        private string ASCIIUser;
+        private string ASCIIUser = null;
         string targetFile;
 
         public Form1()
@@ -75,6 +75,11 @@ namespace WinFormsApp1
                 Bitmap temp = new Bitmap(bmpFile);
                 string pattern1 = ImageConverter.getASCDB(temp);
                 string pattern2 = ImageConverter.getASCUser(temp);
+                 
+                if(this.ASCIIUser == null) {
+                    MessageBox.Show("Input gambar terlebih dahulu");
+                    return;
+                    }
                 if (Algorithm_KMP.KMP(this.ASCIIUser, pattern1) > -1)
                 {
                     int[,] tempLCS = Algorithm_LCS.LCSLength(this.ASCIIUser, pattern2);
@@ -117,6 +122,11 @@ namespace WinFormsApp1
                 Bitmap temp = new Bitmap(bmpFile);
                 string pattern1 = ImageConverter.getASCDB(temp);
                 string pattern2 = ImageConverter.getASCUser(temp);
+                if (this.ASCIIUser == null)
+                {
+                    MessageBox.Show("Input gambar terlebih dahulu");
+                    return;
+                }
                 if (Algoritma_BM.BM(this.ASCIIUser, pattern1) > -1)
                 {
                     int[,] tempLCS = Algorithm_LCS.LCSLength(this.ASCIIUser, pattern2);
@@ -209,6 +219,21 @@ namespace WinFormsApp1
             stopwatch.Stop();
             TimeSpan elapsedTime = stopwatch.Elapsed;
             double resSecond = elapsedTime.TotalSeconds;
+
+            textBoxNIK.Text = "";
+            textBoxNama.Text = "";
+            textBoxTempatLahir.Text = "";
+            textBoxTanggalLahir.Text = "";
+            textBoxJenisKelamin.Text = "";
+            textBoxGolonganDarah.Text = "";
+            textBoxAlamat.Text = "";
+            textBoxAgama.Text = "";
+            textBoxStatusPerkawinan.Text = "";
+            textBoxPekerjaan.Text = "";
+            textBoxKewarganegaraan.Text = "";
+            pictureBoxResult.Image = null;
+
+
             if (perc > 60.0)
             {
                 DatabaseOperations dbOps = new DatabaseOperations();
