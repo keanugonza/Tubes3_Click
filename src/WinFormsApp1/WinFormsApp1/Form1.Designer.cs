@@ -461,22 +461,21 @@
             groupBox1.Controls.Add(pictureBoxUser);
             groupBox1.ForeColor = Color.Transparent;
             groupBox1.Location = new Point(42, 157);
-            groupBox1.Margin = new Padding(2);
+            groupBox1.Margin = new Padding(0);
             groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(2);
+            groupBox1.Padding = new Padding(0);
             groupBox1.Size = new Size(400, 400);
             groupBox1.TabIndex = 35;
             groupBox1.TabStop = false;
-            groupBox1.Visible = false;
             // 
             // pictureBoxUser
             // 
             pictureBoxUser.BackColor = Color.Transparent;
             pictureBoxUser.Dock = DockStyle.Fill;
-            pictureBoxUser.Location = new Point(2, 22);
+            pictureBoxUser.Location = new Point(0, 20);
             pictureBoxUser.Margin = new Padding(2);
             pictureBoxUser.Name = "pictureBoxUser";
-            pictureBoxUser.Size = new Size(396, 376);
+            pictureBoxUser.Size = new Size(400, 380);
             pictureBoxUser.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBoxUser.TabIndex = 0;
             pictureBoxUser.TabStop = false;
