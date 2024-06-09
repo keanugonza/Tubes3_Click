@@ -12,6 +12,7 @@ using System.IO;
 using static System.Net.Mime.MediaTypeNames;
 using System.Diagnostics;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using Mysqlx.Session;
 
 namespace WinFormsApp1
 {
@@ -67,6 +68,127 @@ namespace WinFormsApp1
             }
         }
 
+        private void KMPSearch(ref double perc, ref Bitmap res, ref string[] bmpFiles)
+        {
+            foreach (string bmpFile in bmpFiles)
+            {
+                Bitmap temp = new Bitmap(bmpFile);
+                string pattern1 = ImageConverter.getASCDB(temp);
+                string pattern2 = ImageConverter.getASCUser(temp);
+                if (Algorithm_KMP.KMP(this.ASCIIUser, pattern1) > -1)
+                {
+                    int[,] tempLCS = Algorithm_LCS.LCSLength(this.ASCIIUser, pattern2);
+                    int n = this.ASCIIUser.Length;
+                    int m = pattern2.Length;
+                    string lcs = Algorithm_LCS.PrintLCS(tempLCS, this.ASCIIUser, pattern2, n, m);
+                    double lenLCS = lcs.Length;
+                    double lenM = pattern2.Length;
+                    double resPersen = lenLCS / lenM * 100;
+                    if (resPersen > perc && resPersen > 60.0)
+                    {
+                        perc = resPersen;
+                        res = temp;
+                        this.targetFile = Path.GetFileName(bmpFile);
+                    }
+                }
+                else
+                {
+                    int[,] tempLCS = Algorithm_LCS.LCSLength(this.ASCIIUser, pattern2);
+                    int n = this.ASCIIUser.Length;
+                    int m = pattern2.Length;
+                    string lcs = Algorithm_LCS.PrintLCS(tempLCS, this.ASCIIUser, pattern2, n, m);
+                    double lenLCS = lcs.Length;
+                    double lenM = pattern2.Length;
+                    double resPersen = lenLCS / lenM * 100;
+                    if (resPersen > perc && resPersen > 60.0)
+                    {
+                        perc = resPersen;
+                        res = temp;
+                        this.targetFile = Path.GetFileName(bmpFile);
+                    }
+                }
+            }
+        }
+
+        private void BMSearch(ref double perc, ref Bitmap res, ref string[] bmpFiles)
+        {
+            foreach (string bmpFile in bmpFiles)
+            {
+                Bitmap temp = new Bitmap(bmpFile);
+                string pattern1 = ImageConverter.getASCDB(temp);
+                string pattern2 = ImageConverter.getASCUser(temp);
+                if (Algoritma_BM.BM(this.ASCIIUser, pattern1) > -1)
+                {
+                    int[,] tempLCS = Algorithm_LCS.LCSLength(this.ASCIIUser, pattern2);
+                    int n = this.ASCIIUser.Length;
+                    int m = pattern2.Length;
+                    string lcs = Algorithm_LCS.PrintLCS(tempLCS, this.ASCIIUser, pattern2, n, m);
+                    double lenLCS = lcs.Length;
+                    double lenM = pattern2.Length;
+                    double resPersen = lenLCS / lenM * 100;
+                    if (resPersen > perc && resPersen > 60.0)
+                    {
+                        perc = resPersen;
+                        res = temp;
+                        this.targetFile = Path.GetFileName(bmpFile);
+                    }
+                }
+                else
+                {
+                    int[,] tempLCS = Algorithm_LCS.LCSLength(this.ASCIIUser, pattern2);
+                    int n = this.ASCIIUser.Length;
+                    int m = pattern2.Length;
+                    string lcs = Algorithm_LCS.PrintLCS(tempLCS, this.ASCIIUser, pattern2, n, m);
+                    double lenLCS = lcs.Length;
+                    double lenM = pattern2.Length;
+                    double resPersen = lenLCS / lenM * 100;
+                    if (resPersen > perc && resPersen > 60.0)
+                    {
+                        perc = resPersen;
+                        res = temp;
+                        this.targetFile = Path.GetFileName(bmpFile);
+                    }
+                }
+            }
+        }
+
+        private string regexMatching(ref DatabaseOperations dbOps)
+        {
+            Algorithm_Regex regex = new Algorithm_Regex();
+
+            string a = "test/" + this.targetFile;
+            string namaSidikJari = dbOps.GetNamaSidikJari(a);
+
+            List<string> listNama = new List<string>();
+            listNama = dbOps.GetBiodataEntries_NamaOnly();
+            string nama = null;
+            double resPersen = 0.0;
+            foreach (string s in listNama)
+            {
+                if (s.Equals(regex.Reg(namaSidikJari)))
+                {
+                    nama = s;
+                    return nama;
+                }
+                else
+                {
+                    int[,] tempLCS = Algorithm_LCS.LCSLength(s, namaSidikJari);
+                    int n = s.Length;
+                    int m = namaSidikJari.Length;
+                    string lcs = Algorithm_LCS.PrintLCS(tempLCS, s, namaSidikJari, n, m);
+                    double lenLCS = lcs.Length;
+                    double lenM = namaSidikJari.Length;
+                    double tempPersen = lenLCS / lenM * 100;
+                    if (tempPersen > resPersen)
+                    {
+                        nama = s;
+                        resPersen = tempPersen;
+                    }
+                }
+            }
+            return nama;
+        }
+
         private void buttonSearch_Click(object sender, EventArgs e)
         {
             Stopwatch stopwatch = new Stopwatch();
@@ -78,127 +200,23 @@ namespace WinFormsApp1
             stopwatch.Start();
             if (!this.isToggledOn)
             {
-                foreach (string bmpFile in bmpFiles)
-                {
-                    Bitmap temp = new Bitmap(bmpFile);
-                    string pattern1 = ImageConverter.getASCDB(temp);
-                    string pattern2 = ImageConverter.getASCUser(temp);
-                    if (Algorithm_KMP.KMP(this.ASCIIUser, pattern1) > -1)
-                    {
-                        int[,] tempLCS = Algorithm_LCS.LCSLength(this.ASCIIUser, pattern2);
-                        int n = this.ASCIIUser.Length;
-                        int m = pattern2.Length;
-                        string lcs = Algorithm_LCS.PrintLCS(tempLCS, this.ASCIIUser, pattern2, n, m);
-                        double lenLCS = lcs.Length;
-                        double lenM = pattern2.Length;
-                        double resPersen = lenLCS / lenM * 100;
-                        if (resPersen > perc && resPersen > 60.0)
-                        {
-                            perc = resPersen;
-                            res = temp;
-                            this.targetFile = Path.GetFileName(bmpFile);
-                        }
-                    }
-                    else
-                    {
-                        int[,] tempLCS = Algorithm_LCS.LCSLength(this.ASCIIUser, pattern2);
-                        int n = this.ASCIIUser.Length;
-                        int m = pattern2.Length;
-                        string lcs = Algorithm_LCS.PrintLCS(tempLCS, this.ASCIIUser, pattern2, n, m);
-                        double lenLCS = lcs.Length;
-                        double lenM = pattern2.Length;
-                        double resPersen = lenLCS / lenM * 100;
-                        if (resPersen > perc && resPersen > 60.0)
-                        {
-                            perc = resPersen;
-                            res = temp;
-                            this.targetFile = Path.GetFileName(bmpFile);
-                        }
-                    }
-                }
+                KMPSearch(ref perc, ref res, ref bmpFiles);
             }
             else
             {
-                foreach (string bmpFile in bmpFiles)
-                {
-                    Bitmap temp = new Bitmap(bmpFile);
-                    string pattern1 = ImageConverter.getASCDB(temp);
-                    string pattern2 = ImageConverter.getASCUser(temp);
-                    if (Algoritma_BM.BM(this.ASCIIUser, pattern1) > -1)
-                    {
-                        int[,] tempLCS = Algorithm_LCS.LCSLength(this.ASCIIUser, pattern2);
-                        int n = this.ASCIIUser.Length;
-                        int m = pattern2.Length;
-                        string lcs = Algorithm_LCS.PrintLCS(tempLCS, this.ASCIIUser, pattern2, n, m);
-                        double lenLCS = lcs.Length;
-                        double lenM = pattern2.Length;
-                        double resPersen = lenLCS / lenM * 100;
-                        if (resPersen > perc && resPersen > 60.0)
-                        {
-                            perc = resPersen;
-                            res = temp;
-                            this.targetFile = Path.GetFileName(bmpFile);
-                        }
-                    }
-                    else
-                    {
-                        int[,] tempLCS = Algorithm_LCS.LCSLength(this.ASCIIUser, pattern2);
-                        int n = this.ASCIIUser.Length;
-                        int m = pattern2.Length;
-                        string lcs = Algorithm_LCS.PrintLCS(tempLCS, this.ASCIIUser, pattern2, n, m);
-                        double lenLCS = lcs.Length;
-                        double lenM = pattern2.Length;
-                        double resPersen = lenLCS / lenM * 100;
-                        if (resPersen > perc && resPersen > 60.0)
-                        {
-                            perc = resPersen;
-                            res = temp;
-                            this.targetFile = Path.GetFileName(bmpFile);
-                        }
-                    }
-                }
+                BMSearch(ref perc, ref res, ref bmpFiles);
             }
             stopwatch.Stop();
             TimeSpan elapsedTime = stopwatch.Elapsed;
             double resSecond = elapsedTime.TotalSeconds;
             if (perc > 60.0)
             {
+                DatabaseOperations dbOps = new DatabaseOperations();
                 pictureBoxResult.Image = res;
                 textBoxPersentaseMirip.Text = perc.ToString();
                 textBoxWaktuPencarian.Text = resSecond.ToString();
-                DatabaseOperations dbOps = new DatabaseOperations();
-                Algorithm_Regex regex = new Algorithm_Regex();
-                string a = "test/" + this.targetFile;
-                //MessageBox.Show(a);
-                string namaSidikJari = dbOps.GetNamaSidikJari(a);
-
-                List<string> listNama = new List<string>();
-                listNama = dbOps.GetBiodataEntries_NamaOnly();
-                string nama = null;
-                double resPersen = 0.0;
-                foreach (string s in listNama)
-                {
-                    if (s.Equals(regex.Reg(namaSidikJari)))
-                    {
-                        nama = s;
-                        break;
-                    }
-                    else
-                    {
-                        int[,] tempLCS = Algorithm_LCS.LCSLength(s, namaSidikJari);
-                        int n = s.Length;
-                        int m = namaSidikJari.Length;
-                        string lcs = Algorithm_LCS.PrintLCS(tempLCS, s, namaSidikJari, n, m);
-                        double lenLCS = lcs.Length;
-                        double lenM = namaSidikJari.Length;
-                        double tempPersen = lenLCS / lenM * 100;
-                        if (tempPersen > resPersen)
-                        {
-                            nama = s;
-                            resPersen = tempPersen;
-                        }
-                    }
-                }
+                string nama = regexMatching(ref dbOps);
+                
                 //MessageBox.Show(nama);
                 Dictionary<string, string> biodata = dbOps.GetBiodata(nama);
                 textBoxNIK.Text = biodata["NIK"];
