@@ -16,10 +16,10 @@ Di dalam Tugas Besar 3 ini, kami diminta untuk mengimplementasikan sistem yang d
 
 ## Technologies Used
 - WindowsFormApps
--.NET
--NuGet
--Sql
--C#
+- .NET
+- NuGet
+- Sql
+- C#
 
 
 
@@ -54,16 +54,16 @@ Jalankan, masukkan di terminal:
     <tr>
       <td>13522026</td>
       <td>Rici Trisna Putra</td>
-      <td>Mengerjakan navbar, ongoing, serta unit testing</td>
+      <td>GUI</td>
     </tr>
     <tr>
       <td>13522082</td>
       <td>Keanu Amadius Gonza Wrahatno</td>
-      <td>Mengerjakan fitur add, edit, dan delete (CRUD)</td>
+      <td>Database</td>
     </tr>
     <tr>
       <td>13522112</td>
       <td>Dimas Bagoes Hendrianto</td>
-      <td>Mengerjakan routing dan halaman finished.</td>
+      <td>Algoritma</td>
     </tr>
 </table>
