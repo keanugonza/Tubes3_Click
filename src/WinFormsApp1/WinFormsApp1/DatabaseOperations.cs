@@ -7,7 +7,7 @@ namespace WinFormsApp1
 {
     public class DatabaseOperations
     {
-        private const string ConnectionString = "server=localhost;user=root;database=t;port=3306;password=Informatika2022ITB@@";
+        private const string ConnectionString = "server=localhost;user=root;database=t;port=3306;password=your password";
 
         public string GetNamaSidikJari(string berkas_citra)
         {
