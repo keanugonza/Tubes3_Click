@@ -29,18 +29,30 @@ List the ready features here:
 
 ## Setup
 
-Clone repository atau download dan jalankan di local.
+1. Pastikan Git terinstall pada sistem
 
-Masukkan di terminal:
+2. Pastikan juga Visual Studio versi terbaru dan MariaDB Server terinstall pada sistem
 
-`pip install -r requirements.txt`
+3. Clone repository ini lalu buka dengan Visual Studio
+
+4. Buat database test dalam my sql dengan command
+`mysql -u {username} -p`
+
+5. Lalu Masukan password my sql 
+
+6. Buat Database pada mysql
+`create database t`
+
+6. Keluar dari Mysql lalu jalankan command berikut
+`mysql -u {username} -p t < {namafile sql}`
+
+7. Lalu ubah password pada code di file DatabaseOperations. Ada di connectionstring
 
 
 ## Usage
 
-Jalankan, masukkan di terminal:
-
-`flet run main.py`
+Jalankan dengan 
+`ctrl + f5`
 
 
 ## Jobdesk
