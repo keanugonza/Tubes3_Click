@@ -30,6 +30,9 @@ namespace WinFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Bitmap backgroundImage = new Bitmap(@"..\..\..\Resources\vecteezy_fingerprint-with-concept-abstract-technology-background_6574656.jpg");
+            this.BackgroundImage = backgroundImage;
+
         }
 
 
@@ -215,22 +218,6 @@ namespace WinFormsApp1
             {
                 MessageBox.Show("NOT FOUND");
             }
-
-
-        }
-
-        private void pictureBoxUser_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBoxNama_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBoxResult_Click(object sender, EventArgs e)
-        {
 
         }
     }
