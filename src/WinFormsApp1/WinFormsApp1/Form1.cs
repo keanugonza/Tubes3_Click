@@ -166,12 +166,13 @@ namespace WinFormsApp1
                 DatabaseOperations dbOps = new DatabaseOperations();
                 Algorithm_Regex regex = new Algorithm_Regex();
                 string a = "test/" + this.targetFile;
-
+                //MessageBox.Show(a);
                 string namaSidikJari = dbOps.GetNamaSidikJari(a);
 
                 List<string> listNama = new List<string>();
                 listNama = dbOps.GetBiodataEntries_NamaOnly();
                 string nama = null;
+                double resPersen = 0.0;
                 foreach (string s in listNama)
                 {
                     if (s.Equals(regex.Reg(namaSidikJari)))
@@ -187,14 +188,15 @@ namespace WinFormsApp1
                         string lcs = Algorithm_LCS.PrintLCS(tempLCS, s, namaSidikJari, n, m);
                         double lenLCS = lcs.Length;
                         double lenM = namaSidikJari.Length;
-                        double resPersen = lenLCS / lenM * 100;
-                        if (resPersen > 50.0)
+                        double tempPersen = lenLCS / lenM * 100;
+                        if (tempPersen > resPersen)
                         {
                             nama = s;
+                            resPersen = tempPersen;
                         }
                     }
                 }
-
+                //MessageBox.Show(nama);
                 Dictionary<string, string> biodata = dbOps.GetBiodata(nama);
                 textBoxNIK.Text = biodata["NIK"];
                 textBoxNama.Text = biodata["nama"];
