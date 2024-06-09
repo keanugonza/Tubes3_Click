@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bnVaQH38mfyn5wKJ4td+RqFvfsgNPoI7UEM2e93WpjcOjan4K9B9N4rMbzZcIuaj4MB2tJeA1IrpkE4J1w+AWA==",
+  "dgSpecHash": "IUn7D3i5qwlWa6l0JOYCFQz9CuQkJtx7+m0wcczynTiT+aLWheas9M48VgEAK3XkokuBqhc07VgsFlVxZdyDsg==",
   "success": true,
-  "projectFilePath": "D:\\,SMT 4\\stima\\Tubes3_Click\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+  "projectFilePath": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Keanu\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Keanu\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

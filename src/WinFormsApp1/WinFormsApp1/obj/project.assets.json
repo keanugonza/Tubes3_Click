@@ -1791,11 +1791,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\,SMT 4\\stima\\Tubes3_Click\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "D:\\,SMT 4\\stima\\Tubes3_Click\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectPath": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
       "packagesPath": "C:\\Users\\Keanu\\.nuget\\packages\\",
-      "outputPath": "D:\\,SMT 4\\stima\\Tubes3_Click\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "outputPath": "D:\\,SMT 4\\stima\\Tubes3_Click\\src\\WinFormsApp1\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Keanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
